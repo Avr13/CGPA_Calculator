@@ -71,4 +71,6 @@ def display():
     tk.Label(master,text=str(tot)).grid(row=7,column=4)
     tk.Label(master,text=str(tot/15)).grid(row=8,column=4)
 
+tk.Label(master, text="Name").grid(row=0,column=0)
+
 master.mainloop()
