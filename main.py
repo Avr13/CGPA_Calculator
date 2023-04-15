@@ -72,7 +72,7 @@ def display():
     tk.Label(master,text=str(tot/15)).grid(row=8,column=4)
 
 tk.Label(master, text="Name").grid(row=0,column=0)
-tk.Label(master, text="Registration Number").grid(row=0,column=3)
-tk.Label(master, text="Roll Number").grid(row=1,column=0)
+
+
 
 master.mainloop()
